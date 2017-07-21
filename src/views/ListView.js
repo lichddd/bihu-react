@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {  Link } from 'react-router'
 import './ListView.css'
 
-class TopPart extends Component {
+class ListPart extends Component {
   constructor(props){
     super(props);
     this.state={list:[{id:"",name:"首页"}]};
@@ -53,4 +53,4 @@ class TopPart extends Component {
   }
 }
 
-export default TopPart;
+export default ListPart;
